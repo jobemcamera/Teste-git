@@ -29,7 +29,7 @@ nav a {
 }
 
 nav a:hover {
-	color:  #C78C19;
+	color: #C78C19;
 	text-decoration: underline;
 }
 
@@ -53,11 +53,10 @@ nav a:hover {
 
 .produtos li:hover {
 	border-color: #C78C19;
-
 }
 
 .produtos li:active {
-	border-color: #088C19;
+	border-color: #088C19;	
 }
 
 .produtos li:hover h2 {
@@ -76,22 +75,21 @@ nav a:hover {
 .produto-preco {
 	font-size: 22px;
 	font-weight: bold;
-	margin: 10px;
+	margin-top: 10px;
 }
 
 footer {
 	text-align: center;
-	background: url("../img/bg.jpg");
+	background: url("bg.jpg");
 	padding: 40px 0;
 }
 
 .copyright {
-	color: white;
+	color: #FFFFFF;
 	font-size: 13px;
-	margin: 20px 0;
+	margin: 20px 0 0;
 }
 
-/* CONTATO */
 main {
 	width: 940px;
 	margin: 0 auto;
@@ -102,7 +100,7 @@ form {
 }
 
 form label, form legend {
-	display: block;
+	display:block;
 	font-size: 20px;
 	margin: 0 0 10px;
 }
@@ -119,11 +117,11 @@ form label, form legend {
 }
 
 .enviar {
-	width: 40%;
+	width:40%;
 	padding: 15px 0;
 	background: orange;
 	color: white;
-	font-weight: bold;	
+	font-weight: bold;
 	font-size: 18px;
 	border: none;
 	border-radius: 5px;
@@ -149,4 +147,39 @@ thead {
 td, th {
 	border: 1px solid #000000;
 	padding: 8px 15px;
+}
+
+
+/* css da página inicial */
+.banner {
+	width:100%;
+}
+
+.titulo-principal {
+	text-align: center;
+	font-size: 2em;
+	margin: 0 0 1em;
+	clear: left;
+}
+
+.principal p {
+	margin: 0 0 1em;
+}
+
+.principal strong {
+	font-weight: bold;
+}
+
+.principal em {
+	font-style: italic;
+}
+
+.utensilios {
+	width: 120px;
+	float: left;
+	margin: 0 20px 20px 0;
+}
+
+.imagembeneficios {
+	width: 60%;
 }
